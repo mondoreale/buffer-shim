@@ -1,6 +1,14 @@
 {
   "name": "buffer-shim",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mondoreale/buffer-shim.git"
+  },
+  "homepage": "https://github.com/mondoreale/buffer-shim#readme",
+  "bugs": {
+    "url": "https://github.com/mondoreale/buffer-shim/issues"
+  },
   "type": "module",
   "exports": {
     ".": {
