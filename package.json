@@ -2,17 +2,27 @@
   "name": "buffer-shim",
   "version": "1.0.0",
   "type": "module",
-  "types": "./index.d.ts",
   "exports": {
     ".": {
       "import": "./index.js",
-      "require": "./index.cjs"
+      "require": "./index.cjs",
+      "types": "./index.d.ts"
     }
   },
-  "keywords": ["buffer", "shim", "browser"],
+  "keywords": [
+    "buffer",
+    "shim",
+    "polyfill",
+    "global",
+    "globalThis",
+    "browser",
+    "node",
+    "compat",
+    "runtime"
+  ],
   "author": "Mariusz <mariusz@mariusz.io>",
   "license": "ISC",
-  "description": "A shim for the Node.js Buffer module in browser environments",
+  "description": "A tiny shim that exposes the `buffer` module as globalThis.Buffer.",
   "peerDependencies": {
     "buffer": "^6.0.3"
   }
